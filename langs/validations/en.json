@@ -1,0 +1,6 @@
+{
+    "required": "The :attribute field is required.",
+    "email": "The :attribute must be a valid email address.",
+    "min": "The :attribute must be at least :tags.",
+    "eqfield": "The :attribute and :tags must match."
+}
