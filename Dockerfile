@@ -6,6 +6,7 @@ RUN go install github.com/air-verse/air@latest
 
 COPY go.mod .
 COPY go.sum .
+COPY vendor/ ./vendor
 
 RUN go build -mod=vendor -o main .
 
