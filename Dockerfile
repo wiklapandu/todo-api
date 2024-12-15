@@ -8,8 +8,8 @@ COPY go.mod .
 COPY go.sum .
 COPY ./vendor/ ./vendor
 
-RUN go build -mod=vendor -o main .
-
 COPY . .
+
+RUN go build -mod=vendor -o main .
 
 CMD ["air"]
